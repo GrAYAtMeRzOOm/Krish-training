@@ -1,0 +1,430 @@
+Microsoft Windows [Version 10.0.22000.493]
+(c) Microsoft Corporation. All rights reserved.
+
+F:\LearnWithKrish\Assgiment 1>mkdir A
+
+F:\LearnWithKrish\Assgiment 1>mkdir B
+
+F:\LearnWithKrish\Assgiment 1>mkdir C
+
+F:\LearnWithKrish\Assgiment 1>notepad A.java
+
+F:\LearnWithKrish\Assgiment 1>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\LearnWithKrish\Assgiment 1>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+F:\LearnWithKrish\Assgiment 1>dir
+ Volume in drive F is Studies
+ Volume Serial Number is 5669-3637
+
+ Directory of F:\LearnWithKrish\Assgiment 1
+
+27-Feb-22  01:51 PM    <DIR>          .
+27-Feb-22  01:42 PM    <DIR>          ..
+27-Feb-22  01:51 PM    <DIR>          A
+27-Feb-22  01:52 PM                77 A.java
+27-Feb-22  01:46 PM    <DIR>          B
+27-Feb-22  01:46 PM    <DIR>          C
+               1 File(s)             77 bytes
+               5 Dir(s)  14,832,123,904 bytes free
+
+F:\LearnWithKrish\Assgiment 1>move A.java A/
+        1 file(s) moved.
+
+F:\LearnWithKrish\Assgiment 1>dir
+ Volume in drive F is Studies
+ Volume Serial Number is 5669-3637
+
+ Directory of F:\LearnWithKrish\Assgiment 1
+
+27-Feb-22  01:54 PM    <DIR>          .
+27-Feb-22  01:42 PM    <DIR>          ..
+27-Feb-22  01:54 PM    <DIR>          A
+27-Feb-22  01:46 PM    <DIR>          B
+27-Feb-22  01:46 PM    <DIR>          C
+               0 File(s)              0 bytes
+               5 Dir(s)  14,832,123,904 bytes free
+
+F:\LearnWithKrish\Assgiment 1>cd A
+
+F:\LearnWithKrish\Assgiment 1\A>dir
+ Volume in drive F is Studies
+ Volume Serial Number is 5669-3637
+
+ Directory of F:\LearnWithKrish\Assgiment 1\A
+
+27-Feb-22  01:54 PM    <DIR>          .
+27-Feb-22  01:54 PM    <DIR>          ..
+27-Feb-22  01:52 PM                77 A.java
+               1 File(s)             77 bytes
+               2 Dir(s)  14,832,123,904 bytes free
+
+F:\LearnWithKrish\Assgiment 1\A>cd ..
+
+F:\LearnWithKrish\Assgiment 1>cd..
+
+F:\LearnWithKrish>dir
+ Volume in drive F is Studies
+ Volume Serial Number is 5669-3637
+
+ Directory of F:\LearnWithKrish
+
+27-Feb-22  01:42 PM    <DIR>          .
+27-Feb-22  01:54 PM    <DIR>          Assgiment 1
+               0 File(s)              0 bytes
+               2 Dir(s)  14,832,123,904 bytes free
+
+F:\LearnWithKrish>cd Assgiment 1
+
+F:\LearnWithKrish\Assgiment 1>cd B
+
+F:\LearnWithKrish\Assgiment 1\B>notepad B.java
+
+F:\LearnWithKrish\Assgiment 1\B>cd ..
+
+F:\LearnWithKrish\Assgiment 1>cd C
+
+F:\LearnWithKrish\Assgiment 1\C>notepad Application.java
+
+F:\LearnWithKrish\Assgiment 1\C>javac Application.java
+Application.java:3: error: cannot find symbol
+                B bObj = new  B();
+                ^
+  symbol:   class B
+  location: class Application
+Application.java:3: error: cannot find symbol
+                B bObj = new  B();
+                              ^
+  symbol:   class B
+  location: class Application
+2 errors
+
+F:\LearnWithKrish\Assgiment 1\C>javac Application.java
+Application.java:1: error: package B does not exist
+import B.B;
+        ^
+Application.java:4: error: cannot find symbol
+                B bObj = new  B();
+                ^
+  symbol:   class B
+  location: class Application
+Application.java:4: error: cannot find symbol
+                B bObj = new  B();
+                              ^
+  symbol:   class B
+  location: class Application
+3 errors
+
+F:\LearnWithKrish\Assgiment 1\C>javac Application.java
+Application.java:1: error: package B does not exist
+import B.B;
+        ^
+Application.java:4: error: cannot find symbol
+                B bObj = new B();
+                ^
+  symbol:   class B
+  location: class Application
+Application.java:4: error: cannot find symbol
+                B bObj = new B();
+                             ^
+  symbol:   class B
+  location: class Application
+3 errors
+
+F:\LearnWithKrish\Assgiment 1\C>javac Application.java
+Application.java:1: error: '.' expected
+import B;
+        ^
+1 error
+
+F:\LearnWithKrish\Assgiment 1\C>javac Application.java
+Application.java:1: error: package B does not exist
+import B.B;
+        ^
+Application.java:4: error: cannot find symbol
+                B bObj = new B();
+                ^
+  symbol:   class B
+  location: class Application
+Application.java:4: error: cannot find symbol
+                B bObj = new B();
+                             ^
+  symbol:   class B
+  location: class Application
+3 errors
+
+F:\LearnWithKrish\Assgiment 1\C>javac Application.java
+Application.java:1: error: package B does not exist
+import B.B;
+        ^
+Application.java:4: error: cannot find symbol
+                B bObj = new B();
+                ^
+  symbol:   class B
+  location: class Application
+Application.java:4: error: cannot find symbol
+                B bObj = new B();
+                             ^
+  symbol:   class B
+  location: class Application
+3 errors
+
+F:\LearnWithKrish\Assgiment 1\C>javac Application.java
+Application.java:1: error: illegal '.'
+import ..B.B;
+        ^
+1 error
+
+F:\LearnWithKrish\Assgiment 1\C>javac -d C.Application.java
+error: no source files
+
+F:\LearnWithKrish\Assgiment 1\C>javac -d Application.java
+error: no source files
+
+F:\LearnWithKrish\Assgiment 1\C>cd ..
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java
+A\A.java:1: error: class, interface, or enum expected
+pacakage A;
+^
+1 error
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java
+
+F:\LearnWithKrish\Assgiment 1>javac C/Application.java
+C\Application.java:3: error: cannot find symbol
+                B bObj = new B();
+                ^
+  symbol:   class B
+  location: class Application
+C\Application.java:3: error: cannot find symbol
+                B bObj = new B();
+                             ^
+  symbol:   class B
+  location: class Application
+2 errors
+
+F:\LearnWithKrish\Assgiment 1>javac B/B.java
+B\B.java:1: error: cannot find symbol
+public class B extends A{
+                       ^
+  symbol: class A
+1 error
+
+F:\LearnWithKrish\Assgiment 1>javac B/B.java
+B\B.java:1: error: '.' expected
+import A;
+        ^
+1 error
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java B/B.java C/Application.java
+
+F:\LearnWithKrish\Assgiment 1>java C/Application
+Error: LinkageError occurred while loading main class C.Application
+        java.lang.UnsupportedClassVersionError: C/Application has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 53.0
+
+F:\LearnWithKrish\Assgiment 1>java -ver
+Unrecognized option: -ver
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
+
+F:\LearnWithKrish\Assgiment 1>java -version
+java version "9.0.4"
+Java(TM) SE Runtime Environment (build 9.0.4+11)
+Java HotSpot(TM) 64-Bit Server VM (build 9.0.4+11, mixed mode)
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java B/B.java C/Application.java
+
+F:\LearnWithKrish\Assgiment 1>java C/Application
+Error: A JNI error has occurred, please check your installation and try again
+Exception in thread "main" java.lang.UnsupportedClassVersionError: C/Application has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+        at java.lang.ClassLoader.defineClass1(Native Method)
+        at java.lang.ClassLoader.defineClass(Unknown Source)
+        at java.security.SecureClassLoader.defineClass(Unknown Source)
+        at java.net.URLClassLoader.defineClass(Unknown Source)
+        at java.net.URLClassLoader.access$100(Unknown Source)
+        at java.net.URLClassLoader$1.run(Unknown Source)
+        at java.net.URLClassLoader$1.run(Unknown Source)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.net.URLClassLoader.findClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at sun.launcher.LauncherHelper.checkAndLoadMain(Unknown Source)
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java B/B.java C/Application.java
+
+F:\LearnWithKrish\Assgiment 1>java C/Application
+Error: A JNI error has occurred, please check your installation and try again
+Exception in thread "main" java.lang.UnsupportedClassVersionError: C/Application has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+        at java.lang.ClassLoader.defineClass1(Native Method)
+        at java.lang.ClassLoader.defineClass(Unknown Source)
+        at java.security.SecureClassLoader.defineClass(Unknown Source)
+        at java.net.URLClassLoader.defineClass(Unknown Source)
+        at java.net.URLClassLoader.access$100(Unknown Source)
+        at java.net.URLClassLoader$1.run(Unknown Source)
+        at java.net.URLClassLoader$1.run(Unknown Source)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.net.URLClassLoader.findClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at sun.launcher.LauncherHelper.checkAndLoadMain(Unknown Source)
+
+F:\LearnWithKrish\Assgiment 1>del A/A.class B/B.class C/C.class
+Parameter format not correct - ".class".
+
+F:\LearnWithKrish\Assgiment 1>del A/A.class
+Parameter format not correct - ".class".
+
+F:\LearnWithKrish\Assgiment 1>dir A/
+Invalid switch - "".
+
+F:\LearnWithKrish\Assgiment 1>dir A
+ Volume in drive F is Studies
+ Volume Serial Number is 5669-3637
+
+ Directory of F:\LearnWithKrish\Assgiment 1\A
+
+27-Feb-22  03:03 PM    <DIR>          .
+27-Feb-22  02:37 PM    <DIR>          ..
+27-Feb-22  03:03 PM               386 A.class
+27-Feb-22  02:42 PM                96 A.java
+               2 File(s)            482 bytes
+               2 Dir(s)  14,832,123,904 bytes free
+
+F:\LearnWithKrish\Assgiment 1>del A/A.class
+Parameter format not correct - ".class".
+
+F:\LearnWithKrish\Assgiment 1>del /f  A/A.class
+Parameter format not correct - ".class".
+
+F:\LearnWithKrish\Assgiment 1>del /p  A/A.class
+Parameter format not correct - ".class".
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java B/B.java C/Application.java
+
+F:\LearnWithKrish\Assgiment 1>java C/Application
+Error: A JNI error has occurred, please check your installation and try again
+Exception in thread "main" java.lang.UnsupportedClassVersionError: C/Application has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+        at java.lang.ClassLoader.defineClass1(Native Method)
+        at java.lang.ClassLoader.defineClass(Unknown Source)
+        at java.security.SecureClassLoader.defineClass(Unknown Source)
+        at java.net.URLClassLoader.defineClass(Unknown Source)
+        at java.net.URLClassLoader.access$100(Unknown Source)
+        at java.net.URLClassLoader$1.run(Unknown Source)
+        at java.net.URLClassLoader$1.run(Unknown Source)
+        at java.security.AccessController.doPrivileged(Native Method)
+        at java.net.URLClassLoader.findClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+        at java.lang.ClassLoader.loadClass(Unknown Source)
+        at sun.launcher.LauncherHelper.checkAndLoadMain(Unknown Source)
+
+F:\LearnWithKrish\Assgiment 1>del A/A.class B/B.class C/C.class
+Parameter format not correct - ".class".
+
+F:\LearnWithKrish\Assgiment 1>del "A/A.class" "B/B.class" "C/C.class"
+The system cannot find the path specified.
+
+F:\LearnWithKrish\Assgiment 1>del /f "A/A.class" "B/B.class" "C/C.class"
+The system cannot find the path specified.
+
+F:\LearnWithKrish\Assgiment 1>del /f A/A.class
+Parameter format not correct - ".class".
+
+F:\LearnWithKrish\Assgiment 1>cd A
+
+F:\LearnWithKrish\Assgiment 1\A>del /f A.class
+
+F:\LearnWithKrish\Assgiment 1\A>cd..
+
+F:\LearnWithKrish\Assgiment 1>cd B
+
+F:\LearnWithKrish\Assgiment 1\B>del /f B.class
+
+F:\LearnWithKrish\Assgiment 1\B>cd..
+
+F:\LearnWithKrish\Assgiment 1>cd C
+
+F:\LearnWithKrish\Assgiment 1\C>del /f Application.class
+
+F:\LearnWithKrish\Assgiment 1\C>javac A/A.java B/B.java C/Application.java
+javac: file not found: A\A.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+F:\LearnWithKrish\Assgiment 1\C>java -version
+java version "1.8.0_321"
+Java(TM) SE Runtime Environment (build 1.8.0_321-b07)
+Java HotSpot(TM) 64-Bit Server VM (build 25.321-b07, mixed mode)
+
+F:\LearnWithKrish\Assgiment 1\C>javac A/A.java
+javac: file not found: A\A.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+
+F:\LearnWithKrish\Assgiment 1\C>cd..
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java B/B.java C/Application.java
+
+F:\LearnWithKrish\Assgiment 1>java C/Application
+Error: Could not find or load main class C.Application
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java B/B.java C/Application.java
+
+F:\LearnWithKrish\Assgiment 1>java C/Application
+Error: Could not find or load main class C.Application
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java B/B.java C/Application.java
+
+F:\LearnWithKrish\Assgiment 1>java C/Application
+Error: Could not find or load main class C.Application
+
+F:\LearnWithKrish\Assgiment 1>java C/Application
+Error: Could not find or load main class C.Application
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java B/B.java C/Application.java
+
+F:\LearnWithKrish\Assgiment 1>java -version
+java version "1.8.0_321"
+Java(TM) SE Runtime Environment (build 1.8.0_321-b07)
+Java HotSpot(TM) 64-Bit Server VM (build 25.321-b07, mixed mode)
+
+F:\LearnWithKrish\Assgiment 1>java C/Application
+Error: Could not find or load main class C.Application
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java B/B.java C/Application.java
+
+F:\LearnWithKrish\Assgiment 1>java C/Application
+Error: Could not find or load main class C.Application
+
+F:\LearnWithKrish\Assgiment 1>notepad C/Application.java
+
+F:\LearnWithKrish\Assgiment 1>notepad test.java
+
+F:\LearnWithKrish\Assgiment 1>javac Test.java
+
+F:\LearnWithKrish\Assgiment 1>java Test
+test 1
+
+F:\LearnWithKrish\Assgiment 1>javac A/A.java B/B.java C/Application.java
+
+F:\LearnWithKrish\Assgiment 1>java c.Application
+B is Running
+
+F:\LearnWithKrish\Assgiment 1>cd..
+
+F:\LearnWithKrish>mkdir vikis_problem
+
+F:\LearnWithKrish>notepad vikis_problem/Application.java
+
+F:\LearnWithKrish>
