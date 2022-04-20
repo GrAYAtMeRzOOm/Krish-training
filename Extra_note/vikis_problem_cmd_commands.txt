@@ -1,0 +1,204 @@
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+F:\LearnWithKrish\vikis_problem>javac Application.java
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 9
+
+Viki jumps 9 Meters in 6 Seconds
+
+Viki jumps 9 Meters in 6 Seconds
+
+Viki jumps 9 Meters in 6 Seconds
+
+F:\LearnWithKrish\vikis_problem>javac Application.java
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 9
+
+Viki jumps 9 Meters in 6 Seconds
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 10
+
+Viki jumps 10 Meters in 7 Seconds
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 5
+
+Viki jumps 5 Meters in 1 Seconds
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 3
+
+Viki jumps 3 Meters in 1 Seconds
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 8
+
+Viki jumps 8 Meters in 3 Seconds
+
+F:\LearnWithKrish\vikis_problem>javac Application.java
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 4
+
+Viki jumps 4 Meters in 1 Seconds
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 6
+
+Viki jumps 6 Meters in 3 Seconds
+
+F:\LearnWithKrish\vikis_problem>Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+Viki jumps 6 Meters in 6 Seconds
+
+F:\LearnWithKrish\vikis_problem>javac Application.java
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 9
+
+Viki jumps 9 Meters in 6 Seconds
+
+Viki jumps 9 Meters in 6 Seconds
+
+Viki jumps 9 Meters in 6 Seconds
+
+F:\LearnWithKrish\vikis_problem>javac Application.java
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 9
+
+Viki jumps 9 Meters in 6 Seconds
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 10
+
+Viki jumps 10 Meters in 7 Seconds
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 5
+
+Viki jumps 5 Meters in 1 Seconds
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 3
+
+Viki jumps 3 Meters in 1 Seconds
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 8
+
+Viki jumps 8 Meters in 3 Seconds
+
+F:\LearnWithKrish\vikis_problem>javac Application.java
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 4
+
+Viki jumps 4 Meters in 1 Seconds
+
+F:\LearnWithKrish\vikis_problem>java Application
+How many meters viki need to Jump - 6
+
+Viki jumps 6 Meters in 3 Seconds
+
+F:\LearnWithKrish\vikis_problem>

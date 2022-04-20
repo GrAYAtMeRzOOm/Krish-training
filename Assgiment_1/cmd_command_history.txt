@@ -422,9 +422,3 @@ F:\LearnWithKrish\Assgiment 1>java c.Application
 B is Running
 
 F:\LearnWithKrish\Assgiment 1>cd..
-
-F:\LearnWithKrish>mkdir vikis_problem
-
-F:\LearnWithKrish>notepad vikis_problem/Application.java
-
-F:\LearnWithKrish>

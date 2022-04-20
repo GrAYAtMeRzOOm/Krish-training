@@ -1,0 +1,7 @@
+spring:
+  social:
+    facebook:
+      app-id: 517417743130072
+      app-secret: 318c86504c8008f8f401426afd61ce64
+  host:
+    url: https://localhost:8080/gen
